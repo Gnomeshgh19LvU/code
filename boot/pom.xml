@@ -16,6 +16,15 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <modules>
+        <module>annotation</module>
+        <module>aop</module>
+        <module>bean</module>
+        <module>mybatis</module>
+        <module>mybatis-plus</module>
+        <module>spring-ioc</module>
+    </modules>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
