@@ -3,7 +3,6 @@ package com.ma.pojo;
 import java.util.Date;
 
 public class User {
-    //
     private Integer id;
 
     private String phone;
