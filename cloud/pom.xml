@@ -25,6 +25,10 @@
         <module>nacos</module>
         <module>sentinel</module>
         <module>cloud-common</module>
+        <module>elasticsearch</module>
+        <module>gateway</module>
+        <module>rabbitmq</module>
+        <module>rockemq</module>
     </modules>
 
 
