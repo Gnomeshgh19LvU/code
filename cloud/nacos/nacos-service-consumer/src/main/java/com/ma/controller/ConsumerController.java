@@ -63,6 +63,7 @@ public class ConsumerController {
 
     /**
      * 使用fegin进行远程调用
+     * Get请求方法
      * @param id
      * @return
      */
@@ -75,6 +76,7 @@ public class ConsumerController {
 
     /**
      * 使用fegin进行远程调用
+     * Post请求方法
      * @param user
      * @return
      */
