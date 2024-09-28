@@ -31,6 +31,8 @@
     <file url="file://$PROJECT_DIR$/boot/spring-ioc/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/boot/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/boot/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/cloud-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/cloud-common/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud/elasticsearch/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud/elasticsearch/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud/gateway/src/main/java" charset="UTF-8" />
