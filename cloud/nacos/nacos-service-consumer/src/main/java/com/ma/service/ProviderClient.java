@@ -16,7 +16,6 @@ public interface ProviderClient {
     @GetMapping("/api/v1/provider/getUser")
     User getUser(@RequestParam("id") Integer id);
 
-
     @PostMapping("/api/v1/provider/postUser")
     User postUser(@RequestBody User user);
 
