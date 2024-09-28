@@ -1,0 +1,19 @@
+server:
+  port: 2000
+
+spring:
+  application:
+    name: service-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.75.135:8848
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.75.135:3306/cloud_user?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: 123456
+# MybatisPlus日志
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
