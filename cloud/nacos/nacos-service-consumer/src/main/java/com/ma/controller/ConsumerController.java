@@ -83,7 +83,6 @@ public class ConsumerController {
 //    http://localhost:2000/api/v1/consumer/postUser
     @PostMapping("/postUser")
     public User postUser(@RequestBody User user) {
-        //
         return providerClient.postUser(user);
     }
 
