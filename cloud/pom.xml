@@ -23,14 +23,7 @@
 
     <modules>
         <module>nacos</module>
-        <module>elasticsearch</module>
-        <module>rabbitmq</module>
-        <module>rockemq</module>
         <module>sentinel</module>
-        <module>seata</module>
-        <module>scheduling-tasks</module>
-        <module>spring-AI</module>
-        <module>gateway</module>
         <module>cloud-common</module>
     </modules>
 
