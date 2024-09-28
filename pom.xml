@@ -8,12 +8,13 @@
     <packaging>pom</packaging>
 
     <name>code</name>
+
     <modules>
         <module>base</module>
         <module>cloud</module>
-        <module>security</module>
         <module>test</module>
         <module>boot</module>
+        <module>security</module>
     </modules>
 
     <properties>
