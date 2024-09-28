@@ -1,0 +1,22 @@
+server:
+  port: 3000
+spring:
+  application:
+    name: service-sentinel
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.75.135:3306/cloud_user?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: 123456
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.75.135:8848
+    sentinel:
+      transport:
+        dashboard: 192.168.75.135:8858
+        port: 9999
+# 开启fegin对sentinel的支持
+feign:
+  sentinel:
+    enabled: true
