@@ -107,7 +107,9 @@ public class Answer {
             System.out.println("购买" + num + "本书，应付金额是：" + num * (price * 0.9));
         } else
             System.out.println("购买" + num + "本书，应付金额是：" + num * price);
-
+        //购买8本书，应付金额是：212.0
+        //购买150本书，应付金额是：3577.5
+        //购买600.0本书，应付金额是：11720.0
     }
 
     /**
