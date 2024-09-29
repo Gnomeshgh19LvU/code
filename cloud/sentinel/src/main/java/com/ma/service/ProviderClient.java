@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @FeignClient(value = "service-provider")
-public interface ProviderService {
+public interface ProviderClient{
     @GetMapping("/api/v1/provider/getUser")
     User getUser(@RequestParam("id") Integer id);
 
