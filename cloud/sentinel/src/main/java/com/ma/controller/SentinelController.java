@@ -32,7 +32,7 @@ public class SentinelController {
     public User getUser(@RequestParam Integer id)  {
         return providerService.getUser(id);
     }
-
+//
 
 //    int temp = 0;
 //
