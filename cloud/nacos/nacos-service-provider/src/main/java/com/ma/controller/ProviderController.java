@@ -16,11 +16,13 @@ public class ProviderController {
     }
 
 
+//    http://localhost:1000/api/v1/provider/info
     @GetMapping("/info")
     public String getInfo() {
         return "provider-service";
     }
 
+//    http://localhost:1000/api/v1/provider/getUser?id=1
     @GetMapping("/getUser")
     public User getUser(@RequestParam Integer id) {
         return userService.getById(id);

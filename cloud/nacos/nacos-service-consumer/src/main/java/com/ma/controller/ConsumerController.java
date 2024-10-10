@@ -57,6 +57,7 @@ public class ConsumerController {
         /**
          * 其实也是字符串拼接的过程
          * 以上的路径是等于 "http://provider-service/api/v1/provider/info"
+         * TODO 目前报错，暂未解决
          */
     }
 

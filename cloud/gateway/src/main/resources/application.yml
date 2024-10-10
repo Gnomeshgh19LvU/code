@@ -1,0 +1,30 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: service-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.75.135:8848
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        # http://localhost:8888/consumer/api/v1/consumer/getUser?id=1
+        - id: provider
+          uri: lb://service-provider
+          predicates:
+            - Path=/provider/**
+          filters:
+            - StripPrefix=1
+
+        - id: consumer
+          uri: lb://service-consumer
+          predicates:
+            - Path=/consumer/**
+          order: 1
+          filters:
+            - StripPrefix=1

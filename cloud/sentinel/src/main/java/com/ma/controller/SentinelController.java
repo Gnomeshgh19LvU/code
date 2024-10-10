@@ -33,32 +33,7 @@ public class SentinelController {
         return providerService.getUser(id);
     }
 
-//    int temp = 0;
-//
-//    /**
-//     *
-//     * @param request
-//     * @return
-//     */
-////    http://localhost:3000/api/v1/sentinel/list
-//    @GetMapping("/list")
-//    public Object list(HttpServletRequest request) {
-//        // 延迟三秒展示对象信息模拟高并发
-////        try {
-////            TimeUnit.SECONDS.sleep(3);
-////        } catch (InterruptedException e) {
-////            throw new RuntimeException(e);
-////        }
-//        temp++;
-//        if (temp % 3 == 0) {
-//            throw new RuntimeException();
-//        }
-//        Map<String, String> map = new HashMap<>();
-//        map.put("title-1", "sentinel-1");
-//        map.put("title-2", "sentinel-2");
-//        map.put("port", request.getServerPort() + "");
-//        return map;
-//    }
+
 
 
 }
